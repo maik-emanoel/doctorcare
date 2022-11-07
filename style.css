@@ -44,6 +44,9 @@ body {
   overflow: overlay;
 
   background-color: var(--bg-light);
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased; 
 }
 
 .wrapper {

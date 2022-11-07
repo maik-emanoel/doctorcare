@@ -1,3 +1,5 @@
+const navigation = document.querySelector('#navigation')
+
 window.addEventListener('scroll', onScroll)
 
 onScroll()
@@ -58,13 +60,6 @@ function activateMenuAtCurrentSection(section) {
     menuElement.classList.add('active')
   }
 }
-
-
-
-
-
-
-
 
 
 
